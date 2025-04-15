@@ -7,5 +7,8 @@
     "service_worker": "static/js/background.js"
   },
   "devtools_page": "devtools.html",
-  "host_permissions": ["<all_urls>"]
+  "host_permissions": ["<all_urls>"],
+  "icons": {
+    "128": "icon.png"
+  }
 }
