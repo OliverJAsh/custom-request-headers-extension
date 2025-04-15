@@ -2,11 +2,11 @@
   "name": "custom-request-headers-extension",
   "version": "1.0.0",
   "scripts": {
-    "build": "rspack build"
+    "build": "rsbuild build && cp ./manifest.json ./dist/"
   },
   "devDependencies": {
-    "@rspack/cli": "^1.3.5",
-    "@rspack/core": "^1.3.5",
+    "@rsbuild/core": "^1.3.6",
+    "@rsbuild/plugin-react": "^1.2.0",
     "@types/chrome": "^0.0.315",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2"

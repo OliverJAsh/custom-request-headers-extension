@@ -4,10 +4,10 @@
   "version": "1.0",
   "permissions": ["storage", "declarativeNetRequest"],
   "background": {
-    "service_worker": "dist/background.js"
+    "service_worker": "static/js/background.js"
   },
   "action": {
-    "default_popup": "public/popup.html"
+    "default_popup": "popup.html"
   },
   "host_permissions": ["<all_urls>"]
 }
