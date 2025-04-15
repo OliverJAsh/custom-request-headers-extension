@@ -2,3 +2,5 @@
 
 1. `npm run build`
 2. Load unpacked -> `dist`
+
+![](./demo.png)
