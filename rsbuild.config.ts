@@ -4,7 +4,8 @@ import { pluginReact } from "@rsbuild/plugin-react";
 export default defineConfig({
   source: {
     entry: {
-      popup: "./src/popup.tsx",
+      panel: "./src/panel.tsx",
+      devtools: "./src/devtools.ts",
       background: "./src/background.ts",
     },
   },
